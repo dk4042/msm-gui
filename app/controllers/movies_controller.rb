@@ -12,7 +12,7 @@ class MoviesController < ApplicationController
 
     m.save
 
-    redirect_to("/movie", allow_other_host: true )
+    redirect_to("/movies" )
 
   end
   
